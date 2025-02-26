@@ -9,6 +9,7 @@ This project is a machine learning model meant to predict the outcomes of NCAA m
 ## How It's Made
 
 Language: Python
+
 Libraries: Pandas, Scikit-Learn, Beautiful Soup, NumPy
 
 I began the project hoping that I would be able to find a suitable dataset online that I could use, but quickly found that it wasn't going to be that easy and decided it was a great opportunity to learn to scrape the data myself. I decided to use Sports Reference for they have a cohesive and extensive set of data on men's college basketball. This particular model uses the 2022-2023 basketball season as its historical data, so I got the master list of every team participating during that season. I was able to then go through each team and get their game logs of the entire season and compile that information into one large dataset. 
